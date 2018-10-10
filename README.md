@@ -10,5 +10,5 @@ This project demonstrates some semi-automatic technics that allow:
 
 After you clone the repository, follow futher instructions listed:
 
-  * Building Eclipse distribution - [[Eclipse README](eclise\README.md)]
-  * Building plugins in offline using Maven - [[Plugins README](plugins\README.md)]
+  * Building Eclipse distribution - [[Eclipse README](eclise/README.md)]
+  * Building plugins in offline using Maven - [[Plugins README](plugins/README.md)]
