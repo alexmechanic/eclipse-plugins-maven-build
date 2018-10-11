@@ -18,21 +18,22 @@ In order to setup your Eclipse multi-platform build envoronment, you need to fol
 *Note:* mind that **plugins/** folder contain both platform-specific and platform-independent packages
 *Note:* delete the **placeholder** files located in each directory
 
+
 ## Compile
 
 To build the Eclipse distribution, you need to run the build script:
 
 ```
-python ./builder.py [--target=OS] [options]
+python builder.py [--target=OS] [options]
 ```
 
 Examples:
 
 ```
-python ./builder.py --target=win32
+python builder.py --target=win32
 ```
 ```
-python ./builder.py --nobuild
+python builder.py --nobuild
 ```
 
 Get the help about using the script by running: `python ./builder.py --help`.
