@@ -16,6 +16,6 @@ After you clone the repository, follow futher instructions listed:
 
 ## Contribution and help
 
-Feel free to open issues, creating pull requests or contacting me via  [E-mail](samik.mechanic@gmail.com).
+Feel free to open issues, creating pull requests or contacting me via  [E-mail](mailto:samik.mechanic@gmail.com).
 
 I appreciate any help in making this project better and useful.
