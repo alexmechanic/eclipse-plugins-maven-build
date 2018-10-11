@@ -1,5 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+#
+# Copyright (c) 2018 Alexander Gerasimov <samik.mechanic@gmail.com>
+#
 
 import os, stat, subprocess, sys, platform, tarfile
 from distutils.dir_util import copy_tree, remove_tree
