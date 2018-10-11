@@ -89,8 +89,8 @@ eclipsec.exe -nosplash -application org.eclipse.equinox.p2.director -repository 
 
 ### I do not need to delete the plugins' build artifacts after the build and/or unarchive Maven distribution every time I start the build.
 
-Comment out the **Cleanup()** call in the build script.
-You can then run the script once and next time you re-build, just cd to *parent* folder and run `mvn -o clean verify` from command line.
+* To disable deleting build artifacts, comment out the **Cleanup()** call in the build script.
+* To disable Maven distribution manipulations, comment out the **PrepareMaven()** call in the build script.
 
 ### I need to make a complete clone of the priginal Eclipse repository (e.g. from http://download.eclipse.org/releases/oxygen). How do I do that?
 
@@ -104,6 +104,6 @@ This is a quick-time step.
 ```
 ./eclipse -nosplash -verbose -application org.eclipse.equinox.p2.artifact.repository.mirrorApplication -source http://download.eclipse.org/releases/oxygen -destination file:/absolute-path-to-desired-dir/
 ```
-This step will take time as the command downloads lots of Eclipse packages (actually, all available).
+This step will take time as the command downloads lots of Eclipse packages (actually, all of the available).
 
 3. The full Eclipse repository is located in your desired directory. This might be useful in some cases, e.g. you need to build **any** Eclipse plugins on a machine with no Internet connection.
