@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import os, subprocess, sys, fileinput, string, platform
+import os, subprocess, sys, platform
 from distutils.dir_util import copy_tree, remove_tree
 
 TARGET_LINUX = 0
