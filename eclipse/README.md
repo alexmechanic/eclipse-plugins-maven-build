@@ -5,7 +5,13 @@ This folder contains several files and dirs, that allow to build base Eclipse di
 
 ## Prequisities
 
-In order to setup your Eclipse multi-platform build envoronment, you need to follow the steps:
+In order to setup your Eclipse multi-platform build envoronment, you need to split Eclipse platform builds into 3 parts: base (platform-independent part), linux and win32.
+
+To do so, you can use one of the following methods:
+
+### Manual splitting
+
+If you want to manually split Eclipse distributions, follow the steps:
 
 1. Get [Eclipse IDE](https://www.eclipse.org/downloads/packages/) of the desired version for both OS (Windows and Linux). Both packages must be the same release/version
 2. Unarchive the packages
@@ -17,6 +23,16 @@ In order to setup your Eclipse multi-platform build envoronment, you need to fol
 
 *Note:* mind that **plugins/** folder contain both platform-specific and platform-independent packages
 *Note:* delete the **placeholder** files located in each directory
+
+### Splitting using script
+
+You can use the **splitter.py** script to split Eclipse distributions automatically:
+
+1. Get [Eclipse IDE](https://www.eclipse.org/downloads/packages/) of the desired version for both OS (Windows and Linux). Both packages must be the same release/version
+2. Unarchive the packages
+3. Place both package folders into *eclipse/* directory, naming it **eclipse-linux** and **eclipse-win32** respectively
+4. Run the build script
+5. Check 3 part folders for content
 
 
 ## Compile
