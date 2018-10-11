@@ -12,3 +12,10 @@ After you clone the repository, follow futher instructions listed:
 
   * Building Eclipse distribution - [[Eclipse README](eclipse/README.md)]
   * Building plugins in offline using Maven - [[Plugins README](plugins/README.md)]
+
+
+## Contribution and help
+
+Feel free to open issues, creating pull requests or contacting me via  [E-mail](samik.mechanic@gmail.com).
+
+I appreciate any help in making this project better and useful.
